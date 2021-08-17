@@ -1,0 +1,260 @@
+
+html, body {
+    background-color: rgb(0, 0, 0);
+    color:white;
+    font-family: 'Staatliches',cursive;
+    letter-spacing: 3px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #90f5f8;
+}
+h1 {
+  padding-top: 10px;
+  font-size: 10.0em;
+}
+h2 {
+  font-size: 3.0em;
+  color: white;
+}
+h3 {
+  font-size: 2.5em;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #ff2a4a;
+}
+.banner {
+  background:url("mitsuha.png");
+  background-size: cover;
+  height: 1000px;
+}
+#overlay {
+  background: rgba(0, 0, 0, 0.76);
+  height: 800px;
+}
+.skills {
+  background:url("our.png");
+  background-size: cover;
+  min-height: 100%;
+  padding-bottom: 30px;
+  padding-top:30px;
+}
+.title {
+  padding-bottom: 10px;
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 250px;
+}
+.titles {
+  width: 790px;
+  border-color: white;
+  border-width: 5px;
+  display: block;
+  margin:0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#title {
+  font-size: 6.5em;
+  padding-bottom: 15px;
+}
+
+.skill {
+  background-color: rgb(21, 226, 192);
+  color: #212121;
+  font-size: 3rem;
+  opacity: .8;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 15px;
+  position: relative;
+  display: inline-block;
+}
+.small-intro {
+  background: #2c2c2c;
+  padding-top: 60px;
+}
+#small-intro {
+  text-align: center;
+  width: 50%;
+  font-size: 2em;
+  display:block;
+  margin: 0 auto;
+  color: #74ffd1;
+  padding-bottom: 60px;
+}
+.border {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff; 
+}
+
+.contact {
+  top: 280px;
+  position: relative;
+  font-size: 70%;
+  width: 140px;
+  display: inline-block;
+  cursor: pointer; 
+  padding-bottom: 8px;
+}
+
+.contact-section {
+  background-color: #333;
+  background-size: cover;
+  height: 350px;
+  padding-top: 20px;
+} 
+.contact-buttons {
+  display: block;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+.btn-linkedin {
+   background: #0E76A8;
+   border-radius: 10px;
+   color: #fff;
+   border-width: 1px;
+   border-style: solid;
+   border-color: #084461;
+}
+.btn-github {
+    background-color: #24292e;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+   border-color: #24292e;
+}
+.btn-facebook {
+    background-color: #4267b2;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+   border-color: #084461;
+}
+.btn-instagram {
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  border-style: solid;
+  color: #fff;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.btn-envelope {
+  background-color:rgb(255, 0, 0);
+  border-radius: 10px;
+  color:#ffffff;
+  border-width: 1px;
+  border-style: solid;
+ border-color: #000000;
+}
+
+@media (min-width:1400px)   {
+  .banner, .skills, .ex-timeline, .portfolios, .contact-section {
+     background-repeat: no-repeat; 
+      background-attachment: fixed;
+      background-position: center; 
+   }
+}
+@media (max-width: 800px) and (min-width: 300px) {
+  img {
+    width: 30vw; 
+    height: 30vh;
+  }
+  h1 {
+    font-size: 12vw;
+  }
+  h2 {
+    font-size: 8vw;
+  }
+  h3 {
+    font-size: 6vw;
+  }
+  p {
+    font-size: 6vw;
+  }
+  .skill {
+    font-size: 5vw;
+  }
+  ul {
+    font-size: 4.5vw;
+    width: 80%;
+  }
+  #skills-label {
+    font-size: 13vw;
+  }
+  .banner {
+    background-size: 100% 100%;
+    height: 550px;
+  }
+  .title {
+    padding-bottom: 10px;
+    width: 90%;
+    top: 100px;
+  }
+  .border {
+    width: 25%;
+    border-width: 2px;
+  }
+  .resume,.contact {
+    top: 110px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .small-intro { 
+    padding-top: 40px;
+  }
+  #small-intro {
+    width: 80%;
+    font-size: 5vw;
+    padding-bottom: 40px;
+  }
+  #borderText {
+    font-size: 5.5vw;
+  }
+  #qualif {
+    font-size: 6.5vw;
+  }
+  .titles {
+    width: 85%;
+  }
+  #title {
+    padding-bottom: 15px;
+    font-size: 12vw;
+  }
+  #skills-label {
+    font-size: 10vw;
+    padding-bottom: 10px;
+  }
+  #footer {
+    font-size: 3vw;
+  }
+  .timeline {
+    left: 0;
+  }
+  .timeline-thumbnail {
+    font-size: 3.5vw;
+  }
+  .timeline:before {
+    width: 2px;
+  }
+  .view {
+    font-size: 5.5vw;
+  }
+}
