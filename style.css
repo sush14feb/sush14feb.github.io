@@ -31,7 +31,7 @@ a:hover {
   color: #ff2a4a;
 }
 .banner {
-  background:url("mitsuha.png");
+  background:url("robo.png");
   background-size: cover;
   height: 1000px;
 }
@@ -40,7 +40,7 @@ a:hover {
   height: 800px;
 }
 .skills {
-  background:url("our.png");
+  background:url("code.jpg");
   background-size: cover;
   min-height: 100%;
   padding-bottom: 30px;
@@ -89,7 +89,7 @@ a:hover {
   font-size: 2em;
   display:block;
   margin: 0 auto;
-  color: #74ffd1;
+  color: #16f7ff;
   padding-bottom: 60px;
 }
 .border {
@@ -155,6 +155,7 @@ a:hover {
   background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  cursor: pointer;
 }
 .btn-envelope {
   background-color:rgb(255, 0, 0);
