@@ -5,5 +5,5 @@ $(document).ready(function(){
     $('.navbar-default a').removeClass('selected');
     $(this).addClass('selected');
      });
-    
-   });
+
+});
