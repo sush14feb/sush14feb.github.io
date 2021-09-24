@@ -1,4 +1,4 @@
-# sush14feb.github.io
-## This is the first website that I made while learning Web Development.
+
+## This is the first webpage that I made while learning Web Development.
 ### Check out my Page !
-### link : https://sush14feb.github.io/
+## [Sushmita's Webpage](https://sush14feb.github.io/)
