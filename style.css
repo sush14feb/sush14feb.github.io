@@ -10,7 +10,7 @@ html, body {
     overflow-x: hidden; 
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-  background-color: #480381;
+  background-color: rgb(95, 0, 150);
 }
 h1 {
   padding-top: 10px;
@@ -31,7 +31,7 @@ a:hover {
   color: #ff2a4a;
 }
 .banner {
-  background:url("robo.png");
+  background:url("code.jpg");
   background-size: cover;
   height: 1000px;
 }
@@ -40,7 +40,7 @@ a:hover {
   height: 800px;
 }
 .skills {
-  background:url("code.jpg");
+  background:url("robo.png");
   background-size: cover;
   min-height: 100%;
   padding-bottom: 30px;
@@ -69,7 +69,7 @@ a:hover {
 }
 
 .skill {
-  background-color: rgb(109, 229, 233);
+  background-color:#82fbff;
   color: #000000;
   font-size: 3rem;
   opacity: .8;
@@ -80,7 +80,7 @@ a:hover {
   display: inline-block;
 }
 .small-intro {
-  background: #2c2c2c;
+  background: #131313;
   padding-top: 60px;
 }
 #small-intro {
@@ -89,7 +89,7 @@ a:hover {
   font-size: 2em;
   display:block;
   margin: 0 auto;
-  color: #16f7ff;
+  color: #ffffff;
   padding-bottom: 60px;
 }
 .border {
@@ -97,6 +97,7 @@ a:hover {
   border-width: 3px;
   border-color: #ffffff; 
 }
+
 
 .contact {
   top: 280px;
@@ -109,7 +110,7 @@ a:hover {
 }
 
 .contact-section {
-  background-color: #333;
+  background-color:#131313;
   background-size: cover;
   height: 210px;
   padding-top: 20px;
@@ -165,7 +166,10 @@ a:hover {
   border-style: solid;
  border-color: #000000;
 }
+footer {
+  text-align: center;
 
+}
 @media (min-width:1400px)   {
   .banner, .skills, .ex-timeline, .portfolios, .contact-section {
      background-repeat: no-repeat; 
